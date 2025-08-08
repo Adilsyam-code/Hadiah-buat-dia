@@ -1,0 +1,43 @@
+body {
+	padding: 0; 
+	margin: 0;
+	background-color: #e1b7f0;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	min-height: 89vh;
+}
+
+.text {
+	background-color: #b38cc1;
+	border: 2px solid #89549c;
+	border-radius: 15px;
+	color: white;
+	height: 200px;
+	width: 356px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+	font-family: Courier New;
+}
+
+.text button {
+	position: absolute;
+	bottom: 10px; 
+	right: 15px;
+	background-color: transparent;
+	color: white;
+	padding: 3px; 
+	border-radius: 5px;
+	border: 1.2px solid #89549c;
+	flex-wrap: nowrap;
+}
+
+#hadiah {
+	height: 10px;
+	width: 10px;
+}
